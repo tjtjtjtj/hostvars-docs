@@ -1,0 +1,15 @@
+site_name: host-docs
+theme: readthedocs
+#theme: material
+extra_css:
+    - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+    - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+    - "css/custom.css"
+dev_addr: '192.168.20.41:8000'
+markdown_extensions:
+    - admonition
+
+extra:
+  logo: 'images/sre.png'
+
+site_favicon: 'images/sre.png'
