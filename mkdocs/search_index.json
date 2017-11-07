@@ -1,0 +1,49 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "\u30b5\u30fc\u30d0\u30ea\u30b9\u30c8\u4e00\u89a7\n\n\n\u5bfe\u8c61\u74b0\u5883\n\n\n\n\n\u672c\u756a\uff08production)\n\n\n\u30b9\u30c6\u30fc\u30b8\u30f3\u30b0\uff08staging)\n\n\n\u6027\u80fd\uff08stress)", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#_1", 
+            "text": "", 
+            "title": "\u30b5\u30fc\u30d0\u30ea\u30b9\u30c8\u4e00\u89a7"
+        }, 
+        {
+            "location": "/#_2", 
+            "text": "\u672c\u756a\uff08production)  \u30b9\u30c6\u30fc\u30b8\u30f3\u30b0\uff08staging)  \u6027\u80fd\uff08stress)", 
+            "title": "\u5bfe\u8c61\u74b0\u5883"
+        }, 
+        {
+            "location": "/production/", 
+            "text": "production\n\n\n\n\n\n\n\n\nhost\n\n\nenv\n\n\nIP\n\n\nCPU\n\n\nRAM\n\n\nHDD\n\n\nOS\n\n\nif1\n\n\nif2\n\n\nif3\n\n\n\n\n\n\n\n\n\n\nsrv.example.co.jp\n\n\nproduction\n\n\n172.00.00.100\n\n\n56\n\n\n512\n\n\n250\n\n\n6.8\n\n\nbond0\n\n\nna\n\n\nna\n\n\n\n\n\n\nsrv.example.co.jp\n\n\nproduction\n\n\n172.00.00.101\n\n\n56\n\n\n512\n\n\n250\n\n\n6.8\n\n\nbond0\n\n\nna\n\n\nna\n\n\n\n\n\n\nsrv.example.co.jp\n\n\nproduction\n\n\n172.00.00.102\n\n\n56\n\n\n512\n\n\n250\n\n\n6.8\n\n\nbond0\n\n\nna\n\n\nna\n\n\n\n\n\n\nsrv.example.co.jp\n\n\nproduction\n\n\n172.00.00.103\n\n\n56\n\n\n512\n\n\n250\n\n\n6.8\n\n\nbond0\n\n\nna\n\n\nna", 
+            "title": "Production"
+        }, 
+        {
+            "location": "/production/#production", 
+            "text": "host  env  IP  CPU  RAM  HDD  OS  if1  if2  if3      srv.example.co.jp  production  172.00.00.100  56  512  250  6.8  bond0  na  na    srv.example.co.jp  production  172.00.00.101  56  512  250  6.8  bond0  na  na    srv.example.co.jp  production  172.00.00.102  56  512  250  6.8  bond0  na  na    srv.example.co.jp  production  172.00.00.103  56  512  250  6.8  bond0  na  na", 
+            "title": "production"
+        }, 
+        {
+            "location": "/staging/", 
+            "text": "staging\n\n\n\n\n\n\n\n\nhost\n\n\nenv\n\n\nIP\n\n\nCPU\n\n\nRAM\n\n\nHDD\n\n\nOS\n\n\nif1\n\n\nif2\n\n\nif3\n\n\n\n\n\n\n\n\n\n\nvm.example.co.jp\n\n\nstaging\n\n\n172.00.000.7\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvm.example.co.jp\n\n\nstaging\n\n\n172.00.000.0\n\n\n4\n\n\n8\n\n\n60\n\n\n7.2\n\n\neno16777984\n\n\neno33557248\n\n\nna\n\n\n\n\n\n\nvm.example.co.jp\n\n\nstaging\n\n\n172.00.000.1\n\n\n4\n\n\n8\n\n\n60\n\n\n7.2\n\n\neno16777984\n\n\neno33557248\n\n\nna\n\n\n\n\n\n\nvm.example.co.jp\n\n\nstaging\n\n\n172.00.000.2\n\n\n4\n\n\n8\n\n\n60\n\n\n7.2\n\n\neno16777984\n\n\neno33557248\n\n\nna\n\n\n\n\n\n\nvm.example.co.jp\n\n\nstaging\n\n\n172.00.000.1\n\n\n4\n\n\n8\n\n\n60\n\n\n7.2\n\n\neno16777984\n\n\nna\n\n\nna\n\n\n\n\n\n\nvm.example.co.jp\n\n\nstaging\n\n\n172.00.000.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvm.example.co.jp\n\n\nstaging\n\n\n172.00.000.1", 
+            "title": "Staging"
+        }, 
+        {
+            "location": "/staging/#staging", 
+            "text": "host  env  IP  CPU  RAM  HDD  OS  if1  if2  if3      vm.example.co.jp  staging  172.00.000.7           vm.example.co.jp  staging  172.00.000.0  4  8  60  7.2  eno16777984  eno33557248  na    vm.example.co.jp  staging  172.00.000.1  4  8  60  7.2  eno16777984  eno33557248  na    vm.example.co.jp  staging  172.00.000.2  4  8  60  7.2  eno16777984  eno33557248  na    vm.example.co.jp  staging  172.00.000.1  4  8  60  7.2  eno16777984  na  na    vm.example.co.jp  staging  172.00.000.0           vm.example.co.jp  staging  172.00.000.1", 
+            "title": "staging"
+        }, 
+        {
+            "location": "/stress/", 
+            "text": "stress\n\n\n\n\n\n\n\n\nhost\n\n\nenv\n\n\nIP\n\n\nCPU\n\n\nRAM\n\n\nHDD\n\n\nOS\n\n\nif1\n\n\nif2\n\n\nif3\n\n\n\n\n\n\n\n\n\n\nsrv.co.jp\n\n\nstress\n\n\n172.0.100.11\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsrv.co.jp\n\n\nstress\n\n\n172.0.100.12", 
+            "title": "Stress"
+        }, 
+        {
+            "location": "/stress/#stress", 
+            "text": "host  env  IP  CPU  RAM  HDD  OS  if1  if2  if3      srv.co.jp  stress  172.0.100.11           srv.co.jp  stress  172.0.100.12", 
+            "title": "stress"
+        }
+    ]
+}
