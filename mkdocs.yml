@@ -11,5 +11,3 @@ markdown_extensions:
 
 extra:
   logo: 'images/sre.png'
-
-site_favicon: 'images/sre.png'
