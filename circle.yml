@@ -1,0 +1,16 @@
+machine:
+  timezone:
+    Asia/Tokyo
+  python:
+    version: 3.5.3
+
+test:
+  override:
+    - "true"
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - mkdocs build # site生成
+      - bash ./bin/deploy.sh # gh-pagesへデプロイ
