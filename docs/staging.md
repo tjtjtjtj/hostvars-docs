@@ -3,7 +3,6 @@ staging
 
 |host|env|IP|CPU|RAM|HDD|OS|if1|if2|if3|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|vm111.co.jp|staging|172.10.000.1|4|8|60|7.3|eno|eno33557248|na|
-|vm3.co.jp|staging|172.10.000.3|4|8|60|7.2|eth1|eth2|na|
-
+|vm003.example.co.jp|staging|127.0.0.3|2|4|45|6.5|eth0|na|na|
+|vm005.example.co.jp|staging|127.0.0.5|2|4|45|7.3|eth0|na|na|
 

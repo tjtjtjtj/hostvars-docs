@@ -3,6 +3,5 @@ stress
 
 |host|env|IP|CPU|RAM|HDD|OS|if1|if2|if3|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|vm5.co.jp|stress|172.10.555.5||||||||
-
+|vm004.example.co.jp|stress|127.0.0.4||||||||
 
